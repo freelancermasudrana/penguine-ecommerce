@@ -8,8 +8,12 @@ h5,h2{
 p{
     font-family: 'Faustina', serif;
 }
+/* ==============Typograpgy====================================== */
 nav{
-    background-color: #48d6d8;
+    background-color: #74aaab;
+}
+.header-bg{
+    background-color: #74aaab;
 }
 .navbar-light .navbar-nav .nav-link {
     color: black;
@@ -18,30 +22,62 @@ nav{
 .navbar-light .navbar-nav .nav-link:hover{
     color:red;
 }
-.banner-bg{
-    padding-top:100px;
-}
-.woman-jacket-card img{
-    width: 100%;
-    height: 400px;
-}
-.woman-jacket-card{
-    border:0;
-}
-.left-about-us img {
-    width: 154px;
-    height: 129px;
-    padding-right: 23px;
-}
+/* =========================End Of Navbar CSS */
 .button-bg{
     border-radius: 10px;
     background-color: #1ace56;
 }
-button:hover{
+button:hover.button-bg{
     background-image: -webkit-linear-gradient(rgb(238, 41, 228),#f0f321);
     background-image: linear-gradient(rgb(238, 41, 228),#f0f321);
  
 }
-#carouselExampleControls img{
-    border-radius: 50%;
+/* ============End Of Banner css==================== */
+.woman-jacket-card img{
+    background-color: #ddd;
+    padding: 14px;
+    border-radius: 15px;
+    width: 100%;
+    height: 400px;
 }
+.woman-jacket-card{
+    border-radius: 15px;
+    border:0;
+}
+/* ========================End of Card CSS=============== */
+.footer-bg button {
+    padding: 5px 20px;
+    background-color: tomato;
+    border:none;
+    border-radius: 16px;
+}
+.footer-bg h2{
+    color:darkgoldenrod;
+}
+.footer-bg{
+    border:0;
+    background-color: white;
+}
+/* =========================End Of Card Footer Css================== */
+.spacial-services img {
+    width: 154px;
+    height: 129px;
+    padding-right: 23px;
+}
+.fedeback-info h2{
+    color:darkkhaki;
+}
+#fedeback-image img{
+    border-radius: 50%;
+    border:5px solid #f3afaf;
+}
+/* ==========End Of Fedeback Css part===================== */
+.contact-bg{
+    background-color: #bcced2;
+}
+.contact-info form input,textarea{
+    width: 100%;
+    background-color: rgb(229, 229, 229);
+    padding: 10px 6px;
+}
+/* ===================End Of contact pat css==================== */
