@@ -66,6 +66,9 @@ button:hover.button-bg{
 .fedeback-info h2{
     color:darkkhaki;
 }
+.spacial-services{
+    border-radius: 15px;
+}
 #fedeback-image img{
     border-radius: 50%;
     border:5px solid #f3afaf;
