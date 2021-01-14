@@ -46,7 +46,6 @@ button:hover.button-bg{
 }
 /* ========================End of Card CSS=============== */
 .footer-bg button {
-    padding: 5px 20px;
     background-color: tomato;
     border:none;
     border-radius: 16px;
@@ -81,3 +80,16 @@ button:hover.button-bg{
     padding: 10px 6px;
 }
 /* ===================End Of contact pat css==================== */
+@media(max-width:768px){
+    .spacial-services{
+        display: block!important;
+        text-align: center;
+    }
+    .spacial-services img {
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin:0 auto;
+    }
+}
+/* ================Media Query For Spacial Section Part=================== */
