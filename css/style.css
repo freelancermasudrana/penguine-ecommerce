@@ -92,5 +92,15 @@ button:hover.button-bg{
         display: block;
         margin:0 auto;
     }
+    .order-property2{
+        order: 1;
+    }
+    .order-property2 img{
+        display: inline-block;
+        padding-bottom: 50px;
+    }
+    .order-property{
+        order:2;
+    }
 }
 /* ================Media Query For Spacial Section Part=================== */
